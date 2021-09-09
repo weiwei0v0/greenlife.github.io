@@ -1,0 +1,280 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    color: #6B9887;
+}
+
+#topSection {
+    height: 750px;
+    width: 100%;
+    background: #C2E1D4;
+    background: -webkit-linear-gradient(-135deg, #F1F8F2, #C2E1D4);
+    background: linear-gradient(-135deg,#F1F8F2, #C2E1D4);
+    overflow: hidden;
+}
+
+.otherTopSection {
+    width: 100%;
+    height: 360px;
+    background: #C2E1D4;
+    background: -webkit-linear-gradient(-135deg, #F1F8F2, #C2E1D4);
+    background: linear-gradient(-135deg,#F1F8F2, #C2E1D4);
+    text-align: center;
+}
+
+.topNav {
+    font-size: 26px;
+    padding-top: 45px;
+    width: 100%;
+    color: #333333;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+}
+
+#productName {
+    font-weight: 700;
+}
+
+#headerImg {
+    padding-left: 10%;
+    padding-top: 35px;
+    float: left;
+    transform:scale(0.85);
+    -ms-transform:scale(0.85);
+    -webkit-transform:scale(0.85);
+    -o-transform:scale(0.85);
+    -moz-transform:scale(0.85);
+}
+
+#titleSection {
+    padding-top: 185px;
+    padding-left: 51%;
+}
+
+.subTitle {
+    font-weight: 400;
+    font-size: 32px;
+    color: #6B9887;
+    padding-bottom: 34px ;
+}
+
+.mainTitle {
+    font-weight: 700;
+    font-size: 50px;
+    color: #333333;
+}
+
+.pageTitle {
+    font-weight: 600;
+    font-size: 46px;
+    padding-top: 75px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+.pageSubtitle {
+    font-weight: 400;
+    font-size: 28px;
+    color: #6B9887;
+    /*border-color: #6B9887;
+    border-width: 0 0 3px 0;
+    border-style: solid;*/
+}
+
+#navTitle1 {
+    padding-left: 39%;
+    font-weight: 600;
+}
+
+#othernavTitle1 {
+    padding-left: 39%;
+}
+
+#highlight {
+    font-weight: 600;
+}
+
+.navTitles {
+    padding-right: 5%;
+}
+
+#download {
+    background-color: #6B9887;
+    color: #ffffff;
+    border: none;
+    border-radius: 40px;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    padding: 14px;
+    font-weight: 500;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#otherdownload {
+    background-color: #6B9887;
+    color: #ffffff;
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 22px;
+    padding: 10px;
+}
+
+#download:hover {
+    background-color: #558D77;
+}
+
+.bodySection {
+    width: 100%;
+    height: 700px;
+    background-color: #FEFFFC;
+}
+
+.otherBody {
+    width: 100%;
+    background-color: #FEFFFC;
+}
+
+#aboutusBody {
+    height: 1000px;
+    text-align: center;
+}
+
+.greating {
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-left: 2%;
+    padding-bottom: 50px;
+}
+
+.firstRow {
+    height: 300px;
+    font-size: 20px;
+    display: flex;            
+    display: -webkit-flex;            
+    justify-content: center;            
+    align-items: center; 
+    padding-bottom: 45px;
+}
+
+.member1 {
+    height: 100%;
+    width: 23%;
+    float: left;
+    margin-right: 2%;
+}
+
+.member3 {
+    height: 100%;
+    width: 23%;
+    float: left;
+    margin-right: 2%;
+}
+
+.SecondRow {
+    height: 300px;
+    font-size: 20px;
+    display: flex;            
+    display: -webkit-flex;            
+    justify-content: center;            
+    align-items: center; 
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.member4 {
+    height: 100%;
+    width: 23%;
+    float: left;
+    margin-right: 2%;
+}
+
+.member5 {
+    height: 100%;
+    width: 23%;
+    float: left;
+    margin-right: 2%;
+}
+
+.firstRow img {
+    height: 200px;
+    width: 200px;
+}
+
+.SecondRow img {
+    height: 200px;
+    width: 200px;
+}
+
+.memberName {
+    color: #6B9887;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer {
+    height: 150px;
+    width: 100%;
+    background-color: #333635;
+    color: #ffffff;
+    text-align: center;
+}
+
+.goTop {
+    z-index: 99;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+div .goTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 32px;
+}
+
+.otherTopNav {
+    width: 100%;
+    height: 91px;
+    color: #333333;
+    font-size: 24px; 
+    display: inline-block;
+    text-align: center;
+    line-height: 57px;
+    padding-top: 16px;
+    background: #C2E1D4;
+    background: -webkit-linear-gradient(-135deg, #F1F8F2, #C2E1D4);
+    background: linear-gradient(-135deg,#F1F8F2, #C2E1D4);          
+}
+
+.downloadBody {
+    height: 750px;
+    width: 100%;
+    text-align: center;
+}
